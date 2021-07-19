@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.paralax{
+    background-image: url("img/paralax.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box1{
+    
+    padding: 18px;
+    width: 50%;
+    margin: auto;
+    padding-top: 250px;
+}
+.hello{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    border: 3px solid white;
+    color: white;
+}
+
+.develomed{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(255, 196, 0);
+}
+.span{
+    font-size: 50px;
+}
+
+/* conted */
+.conted{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-left: 50PX;
+}
+.tarjets{
+  /*   background-color: wheat; */
+    width: 35%;
+    height: 300px;
+    background-size: cover;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding-left: 20px;
+    
+}
+
+.imagen{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagen :hover{
+    background: rgb(179, 126, 27);
+}

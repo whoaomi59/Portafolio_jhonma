@@ -31,48 +31,39 @@
     color: white;
 }
 
+.hello:hover {
+    color: rgb(34, 34, 33);
+    cursor: pointer;
+    animation-duration: 10s;
+   
+}
+
 .develomed{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    font-family: sans-serif;
-    color: rgb(255, 196, 0);
+    /* font-family: sans-serif; */
+    color: rgb(129, 119, 85);
 }
 .span{
     font-size: 50px;
 }
 
-/* conted */
-.conted{
-    /* background-color: turquoise; */
-    width: 100%;
-    height: 700px;
-    display: flex;
-    padding-left: 50PX;
+/* ----------navbar----------------*/
+
+.logo{
+    width: 10%;
 }
-.tarjets{
-  /*   background-color: wheat; */
-    width: 35%;
-    height: 300px;
-    background-size: cover;
-    padding-top: 20px;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-    padding-left: 20px;
-    
+ .navbar{
+     box-shadow: 2px 2px 5px #000;
+     opacity: .9;
+ }
+ /* color de los (a) */
+.navbar .nav-item .nav-link{
+    color: coral;
+    font-size: 19px;
 }
 
-.imagen{
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
-
-p{
-    font-size: 20px;
-    text-align: center;
-}
-
-.imagen :hover{
-    background: rgb(179, 126, 27);
+.card .card-body:hover{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
 }

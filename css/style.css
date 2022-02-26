@@ -1,69 +1,133 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: helvetica;
 }
-
-/* header */
-.paralax{
-    background-image: url("img/paralax.jpg");
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-  
+/* body{
+    background: rgb(243, 243, 248);
+} */
+/* ---------------navbar */
+.navbar{
+    margin-top: 50px;
+    text-align: center;
 }
-.box1{
+ul{
+    padding-left:70% ;
+    display: flex;
+    margin: 20px;
+    list-style: none;
+    text-align: center;
     
-    padding: 18px;
-    width: 50%;
+}
+a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.boxnavbar{
+    border: 2px solid rgb(14, 16, 110);
+    border-radius: 12px;
+    
+}
+.cva{
+    color: rgb(14, 16, 110);
+    margin: 20px;
+    text-align: center;
+    font-size:1.5em;
+}
+
+a:hover{
+    color: rgb(2, 2, 172);
+    
+}
+/* -------------container */
+.container{
+    /* background: red; */
+    width: 100%;
+    height: 50vh;
+    margin-top: 70px;
+    
+}
+.presentacion{
     margin: auto;
-    padding-top: 250px;
+    /* background: rgb(14, 35, 131); */
 }
-.hello{
+h1,p{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 5em;
-    border: 3px solid white;
+    color: rgb(44, 43, 43);
+}
+h1{
+    font-size: 2.5em;
+}
+p{
+    font-size:1.2em;
+    padding: 30px;
+    color: rgb(70, 68, 68);
+}
+.boxp{
+    /* background: red; */
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 15vh;
+}
+.mario{
+    text-align: center;
+    height: 35vh;
+    margin-left: 40%;
+}
+.flecha{
+    padding-left: 48%;
+    margin-bottom: 15px;
+}
+/* --------contenedor numero 1 */
+.contenedor1{
+    background: rgb(14, 16, 110);
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+.contenedor1 > h2{
+    padding-top: 25vh;
+    
+}
+.contenedor1 > p{
     color: white;
 }
-
-.hello:hover {
-    color: rgb(34, 34, 33);
-    cursor: pointer;
-    animation-duration: 10s;
-   
+/* ----contenedor2 */
+.contenedor2{
+    box-shadow: 5px 10px 10px  #88888849;
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    background-color: white;
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    margin-top: 65vh;
+    border-radius: 15px;
 }
 
-.develomed{
-    font-size: 50px;
+.cont2box1{
+    width: 50%;
+    height: auto;
+    display: block;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    border-radius:8px ;
+}
+.imgbox{
+    margin-left: 40%;
+    margin-top: 10vh;
+}
+.cont2box1 > h2{
+    color: rgb(44, 43, 43);
     text-align: center;
-    /* font-family: sans-serif; */
-    color: rgb(129, 119, 85);
+    margin-top: 25px;
 }
-.span{
-    font-size: 50px;
-}
-
-/* ----------navbar----------------*/
-
-.logo{
-    width: 10%;
-}
- .navbar{
-     box-shadow: 2px 2px 5px #000;
-     opacity: .9;
- }
- /* color de los (a) */
-.navbar .nav-item .nav-link{
-    color: coral;
-    font-size: 19px;
-}
-
-.card .card-body:hover{
-    background-color: rgba(0, 0, 0, 0.877);
-    color: white;
+/* -----------CONTENEDOR 3 */
+.contenedor3{
+    margin-top: 20vh;
 }

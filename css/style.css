@@ -121,6 +121,10 @@ p{
 .imgbox{
     margin-left: 40%;
     margin-top: 10vh;
+
+}
+.sas{
+    width: 90px;
 }
 .cont2box1 > h2{
     color: rgb(44, 43, 43);

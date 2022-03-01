@@ -26,20 +26,23 @@ a{
     font-size: 20px;
 }
 
-.boxnavbar{
-    border: 2px solid rgb(14, 16, 110);
-    border-radius: 12px;
-    
-}
+
 .cva{
     color: rgb(14, 16, 110);
-    margin: 20px;
     text-align: center;
     font-size:1.5em;
+    border: 2px solid rgb(14, 16, 110);
+    border-radius: 15px;
+    padding: 6px;
+    
 }
-
+.cva:hover{
+    background-color: rgb(14, 16, 110);
+    transition:1s;
+    color: #fff;
+}
 a:hover{
-    color: rgb(2, 2, 172);
+    color:rgb(14, 16, 110) ;
     
 }
 /* -------------container */
@@ -80,7 +83,7 @@ p{
 
 /* --------contenedor numero 1 */
 .contenedor1{
-    background: rgb(14, 16, 110);
+    background-color: rgba(14, 16, 110, 0.815);
     height: 80vh;
     width: 100%;
     text-align: center;
@@ -195,4 +198,62 @@ p{
 
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
+}
+.fotter{
+    
+    background-color: rgba(14, 16, 110, 0.815);
+    height: 90vh;
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+.caja{
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
+    width: 60%;
+   padding: 50px;
+   
+}
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.tetx1{
+    color: #fff;
+    
+}
+.boton{
+    color: #fff;
+    border: 3px solid rgba(5, 6, 44, 0.87);
+    border-radius: 30px;
+    padding: 15px;
+}
+.boton:hover{
+    background-color: rgba(5, 6, 44, 0.87);
+    color: #fff;
+    transition: 1s;
+}
+.caja2{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.icofoter{
+    width: 9%;
+    text-align: center;
+   
+}
+.eslogan{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(175, 175, 175);
+    line-height: 3em; 
+    letter-spacing: 7px;
+}
+.eslogan1{
+    color: #fff;
+    letter-spacing: 6px;
 }

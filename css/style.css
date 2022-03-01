@@ -94,8 +94,13 @@ p{
     padding-top: 25vh;
     
 }
-.contenedor1 > p{
-    color: white;
+.subbox{
+    /*background-color: aqua;*/
+    width: 60%;
+    margin: 0 auto;
+}
+.subbox > p{
+    color: #fff;
 }
 /* ----contenedor2 */
 .contenedor2{
@@ -104,7 +109,7 @@ p{
     border: 1px solid rgba(128, 128, 128, 0.575);
     background-color: white;
     width: 80%;
-    height: 90vh;
+    height: 184%;
     margin: auto;
     position: relative;
     margin-top: 65vh;
@@ -130,6 +135,9 @@ p{
     color: rgb(44, 43, 43);
     text-align: center;
     margin-top: 25px;
+}
+.cont2text{
+    color: rgba(14, 16, 110, 0.815);
 }
 /* -----------CONTENEDOR 3 */
 .contenedor3{

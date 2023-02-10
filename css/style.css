@@ -4,15 +4,26 @@
     font-family: helvetica;
     
 }
+.name{
+    background-color: #5BE9B9;
+    padding: 5px;
+}
+.red{
+    font-size: 18px;
+    color: #141c3a;
+    font-family: helvetica;
+}
+.red:hover{color: #6E07F3;}
 .btn{
     color: #fff;
     background: none;
-    border: 2px solid #5BE9B9;
-    border-radius: 10px;
+    border-radius: 18px;
     padding: 5px;
-}.btn:hover{
-    background: #5BE9B9;
 }
+.border1{border: 2px solid #5BE9B9;}
+.border1:hover{background: #5BE9B9;}
+.border2{border: 2px solid #6E07F3;color: #6E07F3;}
+.border2:hover{background:#6E07F3;color: #fff;}
 .icoImg{
     width: 30px;
     padding: 5px;
@@ -26,21 +37,8 @@
     color: #fff;
     padding: 5px;
 }
-/* ---------------navbar */
-.loader{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 50px;
-}
-.loader span{
-    position: relative;
-    font-size: 1.5em;
-    padding: 5px;
-    color: rgba(14, 16, 110, 0.815);
-    animation: animate 2s ease-in-out infinite;
-    display: inline-block;
-    animation-delay:calc(0.1s * var(--z)) ;
-}
+.spacing{margin: 20px;}
+
 .img{
     object-fit: cover;
     width:100%;
@@ -106,7 +104,7 @@ p{
 }
 /* --------contenedor numero 1 */
 .contenedor1{
-    background-color: rgba(14, 16, 110, 0.815);
+    background-color: #6E07F3;
     height: 80vh;
     width: 100%;
     text-align: center;
@@ -187,39 +185,15 @@ p{
     object-fit: cover;
     display: block;
 }
-
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: rgba(14, 16, 110, 0.664);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hover-galeria img{
-    width: 50px;
-}
-
-.hover-galeria p{
-    color: #fff;
-}
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-}
+.hederFotter{background-color: #141c3a;width: 90%;margin: 0 auto; position: relative;margin-top: 10px;}
 .fotter{
-    background-color: rgba(14, 16, 110, 0.815);
+    height: auto;
+    background-color:  #6E07F3;
     width: 100%;
     color: white;
     display: inline-block;
+    margin-bottom: 0;
 }
-
 .caja{
     display: flex;
     color: #fff;
@@ -236,17 +210,6 @@ h3{
 .tetx1{
     color: #fff;
     
-}
-.boton{
-    color: #fff;
-    border: 3px solid rgba(5, 6, 44, 0.87);
-    border-radius: 30px;
-    padding: 15px;
-}
-.boton:hover{
-    background-color: rgba(5, 6, 44, 0.87);
-    color: #fff;
-    transition: 1s;
 }
 .caja2{
     margin: 0 auto;
@@ -272,6 +235,10 @@ h3{
 .box{
     width: 90%;
     margin: 0 auto;
+}
+.card-footer{padding: 0;}
+.date{
+    color: grey;
 }
 @media (max-width: 1496px){
     .contenedor1{height: 100vh;}

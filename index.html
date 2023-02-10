@@ -15,19 +15,12 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-        <div class="loader">
-                <span style="--z:1;">J</span>
-                <span style="--z:2;">H</span>
-                <span style="--z:3;">O</span>
-                <span style="--z:4;">N</span>
-                <span style="--z:5;">M</span>
-                <span style="--z:6;">A</span>
-                <span style="--z:7;">R</span>
-                <span style="--z:8;">I</span>
-                <span style="--z:9;">O</span>
-        </div>
+                <div class="spacing">
+                        <button class="btn border2">Jhon Mario</button>
+                </div>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +29,6 @@
                 <a class="nav-link active red" aria-current="page" href="#">Home</a>
                 <a class="nav-link active red" href="#">contact us</a>
                 </div>
-                
         </div>
         </div>
         </div>
@@ -152,7 +144,7 @@
  
         
         <!-- /**************TARGETAS***********************///////////////// -->
-        <div class="contenedor3">
+        <div>
                 <h1>My web projects</h1>
                 <p>Here are some web projects I've worked on!</p>
 
@@ -201,7 +193,7 @@
         
         <!-- *********************FOTHER**************************************** -->
         <div class="card text-center fotter">
-                <div class="card-header">
+                <div class="card-header hederFotter">
                         <div class="row">
                                 <div class="col">
                                        <h1 class="title">Start a project </h1> 
@@ -210,7 +202,7 @@
                                         Interested in working together? We should queue up a time to chat. I’ll buy the coffee.
                                 </div>
                                 <div class="col">
-                                       <button class="btn"><img src="./img/ico/helmet_skull_racer_emoji_icon_149304.ico" class="icoImg"/>Let's do this</button>
+                                       <button class="btn border1"><img src="./img/ico/helmet_skull_racer_emoji_icon_149304.ico" class="icoImg"/>Let's do this</button>
                                 </div>
                         </div>
                         
@@ -229,15 +221,13 @@
                         <!-- DISCORD -->
                         <a href="" target="_blank" rel="noreferrer"><img src="./img/discord_logo_icon_134445.svg" width="40" height="40"/></a>
                 </div>
-                <div class="card-footer text-muted" style="padding: 5px;">
-                       <span class="span">Hand Made by <img src="./img/ico/moustache-male-face-emoticon-symbol_icon-icons.com_64308.svg" class="icoImg"/> Jhon Mario</span>2 days ago
+                <div class="card-footer text-muted">
+                       <span class="span">Hand Made by <img src="./img/ico/moustache-male-face-emoticon-symbol_icon-icons.com_64308.svg" class="icoImg"/> Jhon Mario</span><p id="d" class="date">
                 </div>
         </div>
-        
-
-
-        
-
-
 </body>
 </html>
+<script>
+        var i =new Date().toLocaleString();
+        document.getElementById('d').innerHTML=i;
+</script>

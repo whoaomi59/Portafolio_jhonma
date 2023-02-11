@@ -185,7 +185,7 @@ p{
     object-fit: cover;
     display: block;
 }
-.hederFotter{background-color: #141c3a;width: 90%;margin: 0 auto; position: relative;margin-top: 10px;}
+.hederFotter{background-color: #141c3a;width: 90%;margin: 0 auto;margin-top: 10px;}
 .fotter{
     height: auto;
     background-color:  #6E07F3;
@@ -238,7 +238,14 @@ h3{
 }
 .card-footer{padding: 0;}
 .date{
-    color: grey;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: #141c3a;
+    margin-bottom:20px ;
+    border-radius: 5px;
 }
 @media (max-width: 1496px){
     .contenedor1{height: 100vh;}

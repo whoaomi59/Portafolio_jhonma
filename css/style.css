@@ -264,9 +264,9 @@ h3{
     .contenedor1{height: 110vh;}
     .Media{margin-top: 90%;}
 }@media (max-width: 552px){
-    .Media{margin-top: 100%;}
-}@media (max-width: 512px){
-    .Media{margin-top: 110%;}
+    .Media{margin-top: 120%;}
+}@media (max-width: 538px){
+    .Media{margin-top: 190%;}
 }@media (max-width: 477px){
     .Media{margin-top: 120%;}
 }
@@ -284,8 +284,8 @@ h3{
     .contenedor1{height: 130vh;}
     .Media{margin-top: 160%;}
 }
-@media (max-width: 400px){
-    .Media{margin-top: 180%;}
+@media (max-width: 409px){
+    .Media{margin-top: 190%;}
 }
 @media (max-width: 366px){
     .Media{margin-top: 200%;}

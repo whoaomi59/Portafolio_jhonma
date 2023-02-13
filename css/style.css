@@ -7,6 +7,7 @@
 /* AVATAR */
 .avatar{
     height: 35vh;
+    width: 180px;
 }
 .grid{
     background: blue;

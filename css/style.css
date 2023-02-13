@@ -4,6 +4,13 @@
     font-family: helvetica;
     
 }
+/* AVATAR */
+.avatar{
+    height: 35vh;
+}
+.grid{
+    background: blue;
+}
 .name{
     background-color: #5BE9B9;
     padding: 5px;
@@ -92,11 +99,6 @@ p{
     margin-top: 60px;
     display: block;
     margin-bottom: 15vh;
-}
-.mario{
-    text-align: center;
-    height: 35vh;
-    margin-left: 45%;
 }
 .Media{
     margin-top: 40%;

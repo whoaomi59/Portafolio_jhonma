@@ -8,6 +8,7 @@
 .avatar{
     height: 35vh;
     width: 180px;
+    background-color: red;
 }
 .grid{
     background: blue;
